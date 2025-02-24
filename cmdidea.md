@@ -22,6 +22,6 @@
 11. Incident Management: Logs of incidents, outages, and issues related to the service, including resolutions and action plans.
 
 12. Documentation: Links to user manuals, technical documentation, and other relevant resources.
-## WIKI / Knowlede Base
+- WIKI / Knowlede Base
 
 13. Monitoring and Metrics: Data on performance, usage statistics, and monitoring tools.
