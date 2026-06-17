@@ -4,6 +4,9 @@
 
 The **Enterprise Static CMDB** (Configuration Management Database) is a lightweight, browser-based application for searching and discovering your organization's infrastructure assets, services, and dependencies. It provides instant, real-time search filtering across 4,000+ enterprise services including cloud platforms, security tools, databases, container orchestration, networking, and more.
 
+The flow is use git to PR any additions, then merge to main. 
+Host on anything AWS S3, web servers, containers, SaaS solution, etc.
+
 ## Features
 
 - **4,000+ Pre-Populated Services** – Comprehensive coverage of modern enterprise infrastructure
