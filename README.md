@@ -19,7 +19,7 @@ The **Enterprise Static CMDB** (Configuration Management Database) is a lightwei
 ### Opening the Application
 
 1. **Open in Browser**
-   - Double-click `gemini-code-1781713361573.html` to open in your default browser, or
+   - Double-click 'cmdb.html` to open in your default browser, or
    - Right-click → "Open with" and select your preferred browser (Chrome, Firefox, Safari, Edge)
 
 2. **Live Preview (VS Code)**
@@ -259,7 +259,7 @@ The CMDB works with all modern browsers:
 
 | Property | Value |
 |----------|-------|
-| File Name | `gemini-code-1781713361573.html` |
+| File Name | `cmdb.html` |
 | File Size | ~770 KB |
 | Total Entries | 4,000 services |
 | Format | Single-file HTML5 application |
