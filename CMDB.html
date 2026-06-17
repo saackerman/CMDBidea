@@ -5,22 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enterprise Static CMDB</title>
     <style>
-        :root {
-            --bg-color: #f4f6f9;
-            --card-bg: #ffffff;
-            --text-color: #333333;
-            --text-muted: #666666;
-            --border-color: #e1e4e8;
-            --primary-color: #0066cc;
-            --input-bg: #ffffff;
-            --badge-critical: #ffebee;
-            --badge-critical-text: #c62828;
-            --badge-production: #e8f5e9;
-            --badge-production-text: #2e7d32;
-        }
-
-        @media (prefers-color-scheme: dark) {
-            :root {
+:root {
                 --bg-color: #121212;
                 --card-bg: #1e1e1e;
                 --text-color: #e0e0e0;
@@ -32,6 +17,22 @@
                 --badge-critical-text: #ff8a80;
                 --badge-production: #1b4332;
                 --badge-production-text: #81c784;
+        }
+        /* Page background: --bg-color = #f4f6f9 (light mode) and #121212 (dark mode).
+        Service card background: --card-bg = #ffffff (light mode) and #1e1e1e (dark mode) */
+        @media (prefers-color-scheme: light) {
+            :root {
+            --bg-color: #f4f6f9;
+            --card-bg: #ffffff;
+            --text-color: #333333;
+            --text-muted: #666666;
+            --border-color: #e1e4e8;
+            --primary-color: #0066cc;
+            --input-bg: #ffffff;
+            --badge-critical: #ffebee;
+            --badge-critical-text: #c62828;
+            --badge-production: #e8f5e9;
+            --badge-production-text: #2e7d32;
             }
         }
 
